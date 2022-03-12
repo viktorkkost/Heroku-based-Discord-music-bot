@@ -1,4 +1,4 @@
-# A Heroku-compatible Discord music bot
+# How to create and host your own Discord music bot for free
 ## Overview
 This is a Python-based Heroku-compatible Discord bot that can search and play videos from YouTube. Only the bare minimum is included here, but with a few changes you can easily run it locally or host in for free on [Heroku](https://www.heroku.com/platform). It's intended for personal use in a private server "for friends", although you can do whatever you want with it. It's also easily customizable if you know even a little Python. The almost ready-to-use code fixes *most* common issues encountered when trying to play music videos from YouTube.
 
@@ -41,4 +41,11 @@ Put your token in the token.txt file and make sure it's the only string there. S
 You'll need to do so if you want to change the bot and test it locally.
 The easiest way to install libraries is via pip. If you don't have pip, download and install it. If you're not sure if you have pip, enter "cmd" in the search bar on Windows to open the command interface. Once there, simply execute `pip` and hit enter. If you see a bunch of commands, you already have pip.
 
-All of the libraries 
+All of the libraries you need are listed in requirements.txt, because Heroku needs to install them too (that's done automatically). For example, the first library is called "discord.py". Enter the command `pip install discord.py` in the command interface. Repeat for each row in requirements.txt and change the version of the library (the numbers after the == signs) if you need a newer one.
+## Uploading your bot to Heroku
+After you've set up git and Heroku and connected them, as well as commited everything, you're ready to go.
+Go to your working directory (where all the bot files are) via the command line. On windows, this can be done more easily: go into the folder, type `cmd` into the navigation bar (located at the top of the window, left of the search bar) and hit enter.
+Execute `git push heroku master`. Some stuff should be loading so just wait for it to finish.
+  
+You can see the logs from your Heroku app page by clicking the "More" button and selecting "View logs". You should get a "Build succeeded" message if everything went well.
+You can start/stop the worker which runs your bot from the Resources tab in your Heroku app page.
