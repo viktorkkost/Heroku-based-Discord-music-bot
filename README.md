@@ -1,1 +1,3 @@
-# discord-music-bot
+# A Heroku-compatible Discord music bot
+## o
+##o
