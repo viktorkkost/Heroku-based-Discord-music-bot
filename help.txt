@@ -1,0 +1,14 @@
+.help - list of commands
+
+.play - play a youtube video/url/playlist in a voice channel
+.dc - disconnect from the current voice channel
+.fs - skip the current song
+.shuffle - shuffle the queue
+.np - show the song which is playing now
+.q - show the song queue
+.clearq - clear the song queue
+.remove - remove a specific entry from the queue
+.s - search for a youtube video and post the found link
+
+.hello - say hello to the bot
+.kill - stop the bot
