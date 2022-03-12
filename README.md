@@ -36,3 +36,9 @@ Put your token in the token.txt file and make sure it's the only string there. S
   
 **You'll need to provide youtube.com cookies to listen to certain songs**, mainly if the videos are only accessible with a verified account. This can be done in a variety of ways, most commonly via browser extensions. Download them (they're just a .txt file) and replace the old youtube.com_cookies.txt file from your working directory. Make sure the new one has the exact same name.
   
+#### At this point you should be able to host the bot locally by running bot.py, provided you have all the required libraries installed.
+### Optional: install the required libraries locally
+You'll need to do so if you want to change the bot and test it locally.
+The easiest way to install libraries is via pip. If you don't have pip, download and install it. If you're not sure if you have pip, enter "cmd" in the search bar on Windows to open the command interface. Once there, simply execute `pip` and hit enter. If you see a bunch of commands, you already have pip.
+
+All of the libraries 
