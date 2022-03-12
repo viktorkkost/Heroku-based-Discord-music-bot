@@ -13,7 +13,7 @@ You need to [download](https://git-scm.com/downloads) and install git, a system 
 Go to your working directory (where all the bot files are) via the command line. On windows, this can be done more easily: go into the folder, type `cmd` into the navigation bar (located at the top of the window, left of the search bar) and hit enter.
 Enter the `git init` command. If everything works, a new empty repository should be initialized.
 To add files to the repository, use `git add <filename>` or simply `git add .` to add all files from the current directory. You'll need to add every file the bot needs.
-If you've made any changes to these files, you'll need to commit them, i.e. to change the files in git too. Use the command `git commit -m "message"` to do so. The message helps you track what you've commited and when.
+If you've made any changes to these files, you'll need to commit them, i.e. change the files in git too. Use the command `git commit -m "message"` to do so. The message helps you track what you've commited.
 ## Setting up Heroku
 If you want your bot to run on the cloud 24/7 for free, I'd recommend using [Heroku](https://www.heroku.com/platform).
 
@@ -42,7 +42,7 @@ You'll need to do so if you want to change the bot and test it locally.
 The easiest way to install libraries is via pip. If you don't have pip, download and install it. If you're not sure if you have pip, enter "cmd" in the search bar on Windows to open the command interface. Once there, simply execute `pip` and hit enter. If you see a bunch of commands, you already have pip.
 
 All of the libraries you need are listed in requirements.txt, because Heroku needs to install them too (that's done automatically). For example, the first library is called "discord.py". Enter the command `pip install discord.py` in the command interface. Repeat for each row in requirements.txt and change the version of the library (the numbers after the == signs) if you need a newer one.
-## Uploading your bot to Heroku
+## Uploading and hosting your bot on Heroku
 After you've set up git and Heroku and connected them, as well as commited everything, you're ready to go.
 Go to your working directory (where all the bot files are) via the command line. On windows, this can be done more easily: go into the folder, type `cmd` into the navigation bar (located at the top of the window, left of the search bar) and hit enter.
 Execute `git push heroku master`. Some stuff should be loading so just wait for it to finish.
