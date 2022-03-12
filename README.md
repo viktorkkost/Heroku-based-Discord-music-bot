@@ -34,4 +34,5 @@ Go to the Bot page of your [Developer application](https://discord.com/developer
 
 Put your token in the token.txt file and make sure it's the only string there. Save the file and close it.
   
-You'll need to provide cookies 
+**You'll need to provide youtube.com cookies to listen to certain songs**, mainly if the videos are only accessible with a verified account. This can be done in a variety of ways, most commonly via browser extensions. Download them (they're just a .txt file) and replace the old youtube.com_cookies.txt file from your working directory. Make sure the new one has the exact same name.
+  
