@@ -1,3 +1,4 @@
+# Outdated, Heroku no longer has a free tier
 # How to create and host your own Discord music bot for free
 ## Overview
 This is a Python-based, Heroku-ready Discord bot that can search and play videos from YouTube. Only the bare minimum is included here, but with a few simple changes you can easily run it locally or host it for free on [Heroku](https://www.heroku.com/platform). It's intended for personal use on a private server "for friends", although you can do whatever you want with it. It's also easily customizable if you know even a little Python. The almost ready-to-use code fixes *most* common issues encountered when trying to play music videos from YouTube.
